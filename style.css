@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ header section{
     width: 100%;
     display: flex;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 15px;
 }
 header section ul{
     display: flex;
@@ -28,15 +29,16 @@ header section ul{
 }
 header section ul li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 header section ul li a{
-    color: #111;;
+    color: #111;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
 }
 header section ul li img{
     width: 35px;
+    transform: translateY(3px);
 }
 header section ul li button{
     background: #4584ef;
@@ -147,6 +149,7 @@ main .corpo{
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid transparent;
+    background-color: #DDD;
 }
 /* footer */
 footer{
@@ -161,10 +164,19 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 15px;
+    font-size: 15px;
 }
 .boxRodape .esquerdo a {
     margin: 0px 10px;
+    display: inline-block;
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #111;
 }
 .boxRodape .direito a{
    margin: 0px 10px;
+   display: inline-block;
+   padding: 5px 0px;
+   text-decoration: none;
+   color: #111;
 }
