@@ -12,6 +12,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }  
 header section{
     position: absolute;
@@ -68,6 +69,7 @@ main .corpo{
 }
 .nomeGoogle{
     display: inline-flex;
+    
 }
 .nomeGoogle > .boxLogo:nth-child(1){
     color: #4285f4;
@@ -89,7 +91,7 @@ main .corpo{
 }
 .boxLogo h1{
     font-size: 80px;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 /* fim letreiro / inicio searc */
@@ -180,4 +182,7 @@ footer{
    padding: 5px 0px;
    text-decoration: none;
    color: #111;
+}
+.boxRodape a:hover{
+    color: blue;
 }
